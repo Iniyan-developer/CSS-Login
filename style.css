@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 400px;
+    margin: 180px auto;
+    backdrop-filter: blur(3px);
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    width: 85%;
+    height: 50px;
+    margin: 15px 0px 10px 28px;
+    padding-left: 15px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type="password"] {
+    width: 85%;
+    height: 50px;
+    margin: 15px 0px 10px 28px;
+    padding-left: 15px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.forgot p {
+    text-align: center;
+    margin: 15px 0px 10px 28px;
+    font-family: "Roboto", sans-serif;
+    color: red;
+    font-weight: bold;
+}
+
+.container button {
+    height: 50px;
+    width: 155px;
+    margin: 10px 0px 0px 120px;
+    font-family: "Roboto", sans-serif;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+.create p {
+    text-align: center;
+    margin: 25px 0px;
+        color: red;
+        font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 25px 0px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(https://www.theindia.co.in/blog/wp-content/uploads/2022/09/Kodaikanal.jpg);
+    background-size: cover;
+}
